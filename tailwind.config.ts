@@ -20,8 +20,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				unbounded: ['Unbounded', 'sans-serif'],
-				ibm: ['IBM Plex Sans', 'sans-serif'],
+				blackops: ['"Black Ops One"', 'cursive'],
+				ibm: ['"IBM Plex Sans"', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -58,16 +58,17 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				ds: {
-					black: '#080808',
-					dark: '#111111',
-					card: '#181818',
-					border: '#2a2a2a',
-					muted: '#444444',
-					text: '#c8c8c8',
-					white: '#f0f0f0',
-					red: '#e8281a',
-					orange: '#f4631a',
-					amber: '#f0a020',
+					black: '#0a0a0c',
+					dark: '#10111a',
+					card: '#161722',
+					border: '#252633',
+					muted: '#4a4d66',
+					text: '#b8bdd6',
+					white: '#eeeef5',
+					blue: '#4a6fa5',
+					navy: '#1e2d4a',
+					steel: '#6b7fa3',
+					grey: '#8892aa',
 				}
 			},
 			borderRadius: {
